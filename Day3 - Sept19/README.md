@@ -1,6 +1,6 @@
 # Day 3 - Sept19
 
-## Task - Dynamic Item Manager 
+## Task 1 - Dynamic Item Manager 
 
 **Implementation**
 
@@ -24,3 +24,37 @@
 
 The work done on this can be found [here](./item-manager-app/)
 
+## Task 2 - Dashboard Components
+
+### Dashboard Image:
+
+![dashboard](./Components-task.png)
+
+### Possible Structure for the Dashboard
+
+#### 1. **App Level**
+   - **`App.jsx`**: Entry point for routing and other global actions.
+   - **`Dashboard.jsx`**: Main dashboard component that contains all sub-components, such as the sidebar, the task board etc.,
+
+---
+
+#### 2. **Layout Components**
+   - **`Sidebar.jsx`**: Contains navigation links such as Tasks, Activities, Dashboard, Schedule, etc.
+   - **`Header.jsx`**: Displays the user greeting, search bar, and icons for settings, notifications, and user profile.
+   - **`TaskBoard.jsx`**: Renders all columns (To-Do, In Progress, In Review, Done) and tasks-related functions.
+   
+---
+
+#### 3. **Task Board Components**
+   - **`TaskBoardColumn.jsx`**: Represents individual columns (e.g., To-Do, In Progress etc.,).
+   - **`TaskCard.jsx`**: Represents individual task cards within each column.
+   - **`CreateTaskButton.jsx`**: The button for creating a new task.
+   - **`TaskFilters.jsx`**: The button for filtering the tasks based on certain criteria.
+
+---
+
+#### 4. **Reusable UI Components**
+   - **`Avatar.jsx`**: A component that renders the avatars for team members assigned to a task.
+   - **`Tag.jsx`**: A reusable component to display the tags associated with tasks (e.g., "#Product", "#Design").
+   - **`ProgressIndicator.jsx`**: For showing task progress task cards (e.g, The circles indicating the progress).
+   - **`TaskMenu.jsx`**: For rendering options like edit, delete, etc., on each task card.
