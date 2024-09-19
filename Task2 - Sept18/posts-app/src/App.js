@@ -9,6 +9,7 @@ function App() {
   return (
     <div>
       <h1>POSTS</h1>
+      <p>Total posts: {postData.length}</p>
       <div className='main-container'>
         {
           postData.map(post => (
