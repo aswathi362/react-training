@@ -1,0 +1,25 @@
+.vertical-text-outline{
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  -webkit-text-stroke: 1px #0FBA81;
+  color: transparent;
+}
+
+.vertical-text{
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.hero-text{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+.custom-underline{
+  text-decoration-color: #FFBA43;
+}
+
+.bg-image-banner{
+  background-image: url("banner.png");
+}
