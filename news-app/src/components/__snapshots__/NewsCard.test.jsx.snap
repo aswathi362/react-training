@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsCard Component snapshot matches the rendered component 1`] = `
+<div>
+  <div
+    class="p-4 bg-white shadow-md rounded-md border border-rose-300"
+  >
+    <img
+      alt="image not found"
+      class="h-1/2 w-full"
+      src="https://example.com/image.jpg"
+    />
+    <h2
+      class="text-lg font-bold"
+    >
+      Test News Title
+    </h2>
+    <p>
+      Test News Description
+    </p>
+    <a
+      class="text-blue-500"
+      href="https://example.com/news"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Read More ...
+    </a>
+  </div>
+</div>
+`;
